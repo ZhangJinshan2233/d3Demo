@@ -1,3 +1,27 @@
 page-contact {
 
+  .bar{
+      fill:purple;
+      shape-rendering: crispEdges
+  }
+
+  .bar-label{
+    //   text-anchor: end;
+    text-anchor: middle;
+      font-size: 1.5em;
+      fill:black;
+  }
+
+  .axis{
+      font-size:14px
+  }
+
+  .gridline line{
+      fill:none;
+      stroke: #ccc
+  }
+
+//   .content{
+//       background-color: rgb(0, 0, 0)
+//   }
 }

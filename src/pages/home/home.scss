@@ -1,3 +1,23 @@
-page-home {
+.ios, .md {
+ 
+    page-home {
+ 
+        .scroll-content {
+            background-color: map-get($colors, light);
+        }
+ 
+        ion-card-header {
+            font-weight: bold;
+        }
 
+        .trendline{
+            stroke-dasharray: 2;
+        }
+
+        .gridline line{
+            fill:none;
+            stroke: #ccc
+        }
+ 
+    }
 }
